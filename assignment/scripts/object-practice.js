@@ -25,7 +25,7 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 let fullName = me.firstName + me.lastName;
-console.log(fullName);
+console.log('My name is', fullName);
 
 
 /* 3. Nested arrays
@@ -44,7 +44,7 @@ console.log(me.favThreeFoods[2]);
 */
 console.log('Shoe count is ', me.shoeCount);
 me.shoeCount = 3
-console.log('Got a new pair of shoes, shoe cound is now ', me.shoeCount )
+console.log('Got a new pair of shoes, shoe cound is now', me.shoeCount )
 
 
 /* 5. Add a new property to an existing object.
@@ -53,3 +53,5 @@ console.log('Got a new pair of shoes, shoe cound is now ', me.shoeCount )
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'green'
+console.log('My favorite color is', me.favoriteColor)
